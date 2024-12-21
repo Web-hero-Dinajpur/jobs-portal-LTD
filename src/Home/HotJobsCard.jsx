@@ -24,9 +24,14 @@ const HotJobsCard = ({ job }) => {
                     <GrUserWorker />
                     <button className=''>{jobType}</button>
                 </div>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <p>{description}</p>
+                <div className='flex flex-wrap gap-4 my-4'>
+                    {
+                        requirements.map(skill => <p className='bg-slate-200 p-1 text-center rounded-lg'>{skill}</p>)
+                    }
+                </div>
                 <div className="card-actions justify-end">
-                    <button className="btn btn-primary">Buy Now</button>
+                    <button className="btn btn-primary">Apply</button>
                 </div>
             </div>
         </div>
