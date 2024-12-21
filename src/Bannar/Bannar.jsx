@@ -7,7 +7,7 @@ const Bannar = () => {
     return (
         <div className="bg-base-200">
             <div className="hero-content flex-col lg:flex-row-reverse max-w-7xl mx-auto">
-                <div className='flex-1 pb-40 ml-10'>
+                <div className='flex-1 md:pb-36 ml-10'>
                     <motion.img
                         src={team1}
                         animate={{ y: [50, 100, 50] }}

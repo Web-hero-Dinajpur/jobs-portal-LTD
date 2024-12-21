@@ -44,10 +44,10 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div>
-                    <img className='w-24' src={logo} alt="" />
+                    <img className='md:w-24' src={logo} alt="" />
                     
                 </div>
-                <h1 className='text-2xl font-bold'>JOBS PORTAL</h1>
+                <h1 className='md:text-2xl font-bold'>JOBS PORTAL</h1>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
