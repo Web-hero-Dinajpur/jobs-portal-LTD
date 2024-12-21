@@ -27,7 +27,9 @@ const HotJobsCard = ({ job }) => {
                 <p>{description}</p>
                 <div className='flex flex-wrap gap-4 my-4'>
                     {
-                        requirements.map(skill => <p className='bg-slate-200 p-1 text-center rounded-lg'>{skill}</p>)
+                        requirements.map(skill => <p 
+                            className='bg-slate-200 p-1 text-center rounded-lg hover:bg-gray-400 hover:text-blue-600'
+                            >{skill}</p>)
                     }
                 </div>
                 <div className="card-actions justify-end">
